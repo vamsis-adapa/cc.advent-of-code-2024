@@ -10,6 +10,7 @@ with open('src/resources/day1/lists.txt', encoding='utf-8') as fp:
         li0.append(int(line.split()[0]))
         li1.append(int(line.split()[1]))
 
+
 # part 1
 li0.sort()
 li1.sort()

@@ -16,5 +16,12 @@ def load_out_file(day: int, file: str, mode: Literal['r', 'w'] = "r"):
     return open(path, mode)
 
 
+def load_file_lines(day, file):
+    path = f"{RESC_DIRECTORY}/day{day}/{file}"
+    with open(path) as fp:
+        for ln in fp:
+            yield ln
+
+
 def print_ln():
     print("-----------------")

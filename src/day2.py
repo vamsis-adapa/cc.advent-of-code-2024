@@ -2,9 +2,7 @@
 https://adventofcode.com/2024/day/2
 '''
 import math
-import re
 from utils import load_resc_file, print_ln
-from typing import Self
 
 REPORTS = "reports.txt"
 SAMPLE_REPORTS = "sample_reports.txt"
@@ -168,4 +166,5 @@ def validate_increasing(report: list[int], damper: int) -> bool:
     return True
 
 
-print(validate_reports())
+if __name__ == "__main__":
+    print(validate_reports())
