@@ -2,3 +2,4 @@ logs.txt
 .pylintrc
 .vscode/settings.json
 **.pyc
+src/resources/
